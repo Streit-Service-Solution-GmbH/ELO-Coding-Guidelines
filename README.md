@@ -8,7 +8,7 @@ Entwicklungsprojekten.
 
 ![Alt text](./assets/streit_logo.jpg?raw=true "Title")
 
-Inhaltsverzeichnis
+## Inhaltsverzeichnis
 
 1. [ Namensgebung ](#naming-conventions)
 
