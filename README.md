@@ -13,4 +13,4 @@ Entwicklungsprojekten.
 1. [ Namensgebung ](#naming-conventions)
 
 <a name="naming-conventions"></a>
-## 1. Namensgebung
+### 1. Namensgebung
