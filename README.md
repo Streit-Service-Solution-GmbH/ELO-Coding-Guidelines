@@ -11,12 +11,17 @@ Entwicklungsprojekten.
 ## Inhaltsverzeichnis
 
 1. [ Namenskonvention ](#naming-conventions)
-1.1 [ Business Solutions ](#naming-conventions-business_solutions)
 
 <a name="naming-conventions"></a>
 ## 1. Namenskonvention
 Namenskonventionen sind Festlegungen/Vorschriften/Empfehlungen für Entwickler zur Benennung von Objekten, Dateien etc.
 Diese dienen dazu einen einheitlichen Stil in der Programmierung einzuhalten und die Wiederfindbarkeit / Wartbarkeit und Professionalität zu erhöhen.
 
-<a name="naming-conventions-business_solutions"></a>
 ### 1.1 Business Solutions
+Eigene Business Solutions werden wie folgt benannt: 
+
+    - Streit.Kundenname(optional).Komponente(BS)
+    - Beispiel 1 Interne Entwicklung: streit.invoice
+    - Beispiel 2 Externe Entwicklung: streit.buro.invoice 
+
+Keine Verwendung von Großbuchstaben, Sonderzeichen und Nummerischen Charakteren in der Benennung von Business Solutions.
