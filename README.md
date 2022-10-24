@@ -21,6 +21,7 @@ Diese dienen dazu einen einheitlichen Stil in der Programmierung einzuhalten und
 Eigene Business Solutions werden wie folgt benannt: 
 
     - Streit.Kundenname(optional).Komponente(BS)
+    
     - Beispiel 1 Interne Entwicklung: streit.invoice
     - Beispiel 2 Externe Entwicklung: streit.buro.invoice 
 
