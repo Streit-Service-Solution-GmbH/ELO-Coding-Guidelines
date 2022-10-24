@@ -10,7 +10,13 @@ Entwicklungsprojekten.
 
 ## Inhaltsverzeichnis
 
-1. [ Namensgebung ](#naming-conventions)
+1. [ Namenskonvention ](#naming-conventions)
+1.1 [ Business Solutions ](#naming-conventions-business_solutions)
 
 <a name="naming-conventions"></a>
-### 1. Namensgebung
+## 1. Namenskonvention
+Namenskonventionen sind Festlegungen/Vorschriften/Empfehlungen für Entwickler zur Benennung von Objekten, Dateien etc.
+Diese dienen dazu einen einheitlichen Stil in der Programmierung einzuhalten und die Wiederfindbarkeit / Wartbarkeit und Professionalität zu erhöhen.
+
+<a name="naming-conventions-business_solutions"></a>
+### 1.1 Business Solutions
