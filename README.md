@@ -37,3 +37,16 @@ Entwicklungsdateien wie Scripte, Assets usw. werden wie folgt benannt:
 
 Zu beachten ist, dass für verschiedene Arten von Entwicklungsdateien noch einmal separate Namenskonventionen einzuhalten sind, die
 ebenfalls in dieser Repository erläutert sind.
+
+
+### 1.3 Variablen
+Die Deklaration von Variablen erfolgt nach folgendem Schema. Es wird jeder Variable ein Prefix vorangestellt, der deutlich macht, 
+um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" vorangestellt, für Variablen vom Typ String ein "s" etc.
+
+```
+    var oVariableOfTypeObject = {}          // Variable vom Typ Objekt
+    var sVariableOfTypeString = "Test"      // Variable vom Typ String
+    var iVariableOfTypeInteger = 1234       // Variable vom Typ Integer
+    var dVariableOfTypeDouble  = 12,34      // Variable vom Typ Double
+    var bVariableOfTypeBoolean = true       // Variable vom Typ Boolean
+```
