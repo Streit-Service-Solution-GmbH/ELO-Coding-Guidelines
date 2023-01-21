@@ -43,7 +43,7 @@ ebenfalls in dieser Repository erläutert sind.
 Die Deklaration von Variablen erfolgt nach folgendem Schema. Es wird jeder Variable ein Prefix vorangestellt, der deutlich macht, 
 um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" vorangestellt, für Variablen vom Typ String ein "s" etc.
 
-```
+```JavaScript
     var oVariableOfTypeObject = {}          // Variable vom Typ Objekt
     var sVariableOfTypeString = "Test"      // Variable vom Typ String
     var iVariableOfTypeInteger = 1234       // Variable vom Typ Integer
