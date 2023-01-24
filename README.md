@@ -50,3 +50,18 @@ um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" voran
     var dVariableOfTypeDouble  = 12,34      // Variable vom Typ Double
     var bVariableOfTypeBoolean = true       // Variable vom Typ Boolean
 ```
+
+<a name="naming-conventions"></a>
+## 2. Typen
+
+### 1.1 Primitive Typen
+Beim Arbeiten mit primitiven Typen wird direkt mit deren Wert gearbeitet. 
+
+```JavaScript
+    const foo = 1
+    let bar = foo
+
+    bar = 9
+
+    console.log(foo, bar)   // Ausgabe: 1, 9
+```
