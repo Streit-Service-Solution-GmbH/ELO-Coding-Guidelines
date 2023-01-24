@@ -11,7 +11,8 @@ Entwicklungsprojekten.
 ## Inhaltsverzeichnis
 
 1. [ Namenskonvention ](#naming-conventions)
-2. [ Typen ](#types)
+2. [ Datentypen ](#types)
+3. [ Referenzen ](#references)
 
 <a name="naming-conventions"></a>
 ## 1. Namenskonvention
@@ -55,7 +56,7 @@ um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" voran
 <a name="types"></a>
 ## 2. Typen
 
-### 1.1 Primitive Typen
+### 2.1 Primitive Typen
 Beim Arbeiten mit primitiven Typen wird direkt mit deren Wert gearbeitet. 
 
 ---
@@ -83,6 +84,29 @@ Zu den primitiven Typen gehören:
     console.log(iFoo, iBar)   // Ausgabe: 1, 9
 ```
 
-### 1.2 Komplexe Typen
+### 2.2 Komplexe Typen
 Beim Arbeiten mit komplexen Typen wird mit Referenzen zu deren Wert gearbeitet.
+
+Zu den komplexen Typen gehören: 
+
+    * Object
+    * Array
+    * Function 
+
+```JavaScript
+    const aFoo = [1, 2]
+    const aBar = aFoo
+    
+    aBar[0] = 9
+
+    console.log(aFoo[0], aBar[0])   // Ausgabe: 9, 9
+```
+
+
+<a name="references"></a>
+## 3. Referenzen
+
+3.1 Für Referenzen wird immer const verwendet und nicht var oder let. Diese Entscheidung basiert auf den Richtlinien von eslint ( prefer-const ), ( no-const-assign )
+Konstanten können nicht neu zugewiesen werden, so kann verhindert werden, dass es fälschlicherweise zu erneuten Zuweisungen der Variablen kommt, was zu Bugs führen kann.
+
 
