@@ -58,6 +58,11 @@ um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" voran
 ### 1.1 Primitive Typen
 Beim Arbeiten mit primitiven Typen wird direkt mit deren Wert gearbeitet. 
 
+---
+> In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods or properties.
+---
+
+
 Zu den primitiven Typen gehören: 
 
     * String
