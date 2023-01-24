@@ -60,13 +60,13 @@ Beim Arbeiten mit primitiven Typen wird direkt mit deren Wert gearbeitet.
 
 Zu den primitiven Typen gehören: 
 
-    - String
-    - Number
-    - Boolean
-    - Null
-    - Undefined
-    - Symbol 
-    - Bigint
+    * String
+    * Number
+    * Boolean
+    * Null
+    * Undefined
+    * Symbol 
+    * Bigint
 
 ```JavaScript
     const iFoo = 1
