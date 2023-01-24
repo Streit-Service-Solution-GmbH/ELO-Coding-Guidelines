@@ -11,6 +11,7 @@ Entwicklungsprojekten.
 ## Inhaltsverzeichnis
 
 1. [ Namenskonvention ](#naming-conventions)
+2. [ Typen ](#types)
 
 <a name="naming-conventions"></a>
 ## 1. Namenskonvention
@@ -51,17 +52,30 @@ um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" voran
     var bVariableOfTypeBoolean = true       // Variable vom Typ Boolean
 ```
 
-<a name="naming-conventions"></a>
+<a name="types"></a>
 ## 2. Typen
 
 ### 1.1 Primitive Typen
 Beim Arbeiten mit primitiven Typen wird direkt mit deren Wert gearbeitet. 
 
+Zu den primitiven Typen gehören: 
+
+    - String
+    - Number
+    - Boolean
+    - Null
+    - Undefined
+    - Symbol 
+    - Bigint
+
 ```JavaScript
-    const foo = 1
-    let bar = foo
+    const iFoo = 1
+    let iBar = foo
 
-    bar = 9
+    iBar = 9
 
-    console.log(foo, bar)   // Ausgabe: 1, 9
+    console.log(iFoo, iBar)   // Ausgabe: 1, 9
 ```
+
+### 1.2 Komplexe Typen
+Beim Arbeiten mit komplexen Typen wird mit Referenzen zu deren Wert gearbeitet.
