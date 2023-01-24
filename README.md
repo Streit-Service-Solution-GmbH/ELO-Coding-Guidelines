@@ -62,6 +62,7 @@ Beim Arbeiten mit primitiven Typen wird direkt mit deren Wert gearbeitet.
 > In JavaScript, a primitive (primitive value, primitive data type) is data that is not an object and has no methods or properties.
 ---
 
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/Primitive">Primitive Datentypen</a>
 
 Zu den primitiven Typen gehören: 
 
@@ -84,3 +85,4 @@ Zu den primitiven Typen gehören:
 
 ### 1.2 Komplexe Typen
 Beim Arbeiten mit komplexen Typen wird mit Referenzen zu deren Wert gearbeitet.
+
