@@ -18,6 +18,7 @@ Entwicklungsprojekten.
 ## 1. Namenskonvention
 Namenskonventionen sind Festlegungen/Vorschriften/Empfehlungen für Entwickler zur Benennung von Objekten, Dateien etc.
 Diese dienen dazu einen einheitlichen Stil in der Programmierung einzuhalten und die Wiederfindbarkeit / Wartbarkeit und Professionalität zu erhöhen.
+Dieselben Namenskonventionen sollten für jeden Teil von Code beibehalten werden.
 
 ### 1.1 Business Solutions
 Eigene Business Solutions werden wie folgt benannt: 
@@ -44,6 +45,9 @@ ebenfalls in dieser Repository erläutert sind.
 ### 1.3 Variablen
 Die Deklaration von Variablen erfolgt nach folgendem Schema. Es wird jeder Variable ein Prefix vorangestellt, der deutlich macht, 
 um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" vorangestellt, für Variablen vom Typ String ein "s" etc.
+Das erhöht die Lesbarkeit und macht direkt deutlich um welchen Variablentyp es sich handelt. Der Typ einer Variable sollte nicht überschrieben werden, 
+sondern es sollte eine neue Variable angelegt werden.
+
 
 ```JavaScript
     var oVariableOfTypeObject = {}          // Variable vom Typ Objekt
@@ -52,6 +56,27 @@ um welchen Typ es sich handelt. Für Variablen vom Typ Objekt wird ein "o" voran
     var dVariableOfTypeDouble  = 12,34      // Variable vom Typ Double
     var bVariableOfTypeBoolean = true       // Variable vom Typ Boolean
 ```
+
+Variablen werden auch stets so benannt, dass klar ist wofür diese stehen, sodass schon am Namen erkennbar ist, 
+wofür sie genutzt wird bzw. welchen Inhalt sie zugewiesen bekommt. 
+
+```JavaScript
+    var sT = "I am an Test String" // schlecht
+    var sTestString = "I am an Test String" // gut
+```
+
+Variablen in JavaScript werden ebenfalls im camelCase angelegt. 
+
+```JavaScript
+    var IsimPleInteger = 123 // schlecht
+    var iSimpleInteger = 123 // gut
+```
+
+Variablen namen werden niemals mit Sonderzeichen vergeben und auf gar keinen Fall wird ein $ Zeichen vergeben, das würde Konflikte mit
+bestehenden JavaScript Bibliotheken und jQuery auslösen.
+
+### 1.4 Funktionen
+
 
 <a name="types"></a>
 ## 2. Typen
