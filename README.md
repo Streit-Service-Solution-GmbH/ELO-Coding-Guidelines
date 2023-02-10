@@ -26,7 +26,7 @@ Eigene Business Solutions werden wie folgt benannt:
     - streit.kundenname(optional).komponente(BS)
 
     - Beispiel 1 Interne Entwicklung: streit.invoice
-    - Beispiel 2 Externe Entwicklung: streit.buro.invoice 
+    - Beispiel 2 Externe Entwicklung: streit.kunde.invoice 
 
 Keine Verwendung von Großbuchstaben, Sonderzeichen und Nummerischen Charakteren in der Benennung von Business Solutions.
 
@@ -36,10 +36,18 @@ Entwicklungsdateien wie Scripte, Assets usw. werden wie folgt benannt:
     - streit.kundenname(optional).komponente(BS).servermodul.Kurzbezeichnung
 
     - Beispiel 1 Internes AS-Script: streit.invoice.as.Mailverarbeitung
-    - Beispiel 2 Externes AS-Script: streit.buro.invoice.as.Mailverarbeitung
+    - Beispiel 2 Externes AS-Script: streit.kunde.invoice.as.Mailverarbeitung
+
+Übersetzungsdateien werden wie folgt benannt: 
+
+    - Beispiel 1 Übersetzungsdatei Deutsch: streit.invoice_de
+    - Beispiel 2 Übersetzungsdatei Default: streit.invoice
+    
+    - Beispiel 3 JavaClient Übersetzungsdatei Deutsch: text_streit.invoice.client_DE
+    - Beispiel 4 JavaClient Übersetzungsdatei Default: text_streit.invoice.client
 
 Zu beachten ist, dass für verschiedene Arten von Entwicklungsdateien noch einmal separate Namenskonventionen einzuhalten sind, die
-ebenfalls in dieser Repository erläutert sind.
+ebenfalls in diesem Repository erläutert sind.
 
 
 ### 1.3 Variablen
