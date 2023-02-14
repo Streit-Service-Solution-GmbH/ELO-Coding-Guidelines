@@ -30,6 +30,18 @@ Eigene Business Solutions werden wie folgt benannt:
 
 Keine Verwendung von Großbuchstaben, Sonderzeichen und Nummerischen Charakteren in der Benennung von Business Solutions.
 
+### 1.2 Masken
+Masken sollten immer im Singular benannt werden, da sie immer ein Objekt identifizieren und niemals eine Menge an Objekten.
+Die Menge ergibt sich durch die Summe aus den einzelnen Objekten der Maske.
+
+Die Benamung der Maske entspricht nicht der Bezeichnung von Ordnern etc. diese können sehr wohl im Plural vergeben werden.
+
+    -   Kontoauszug     // gut
+    -   Kontoauszüge    // schlecht
+
+Ebenfalls werden für Masken Überetzungsvariablen für den Namen angelegt, welche entsprechend in den Übersetzungsdateien zu pflegen sind.
+So können Masken übersetzt und deren Name ohne Probleme später geändert werden.
+
 ### 1.2 Entwicklungsdateien
 Entwicklungsdateien wie Scripte, Assets usw. werden wie folgt benannt: 
 
